@@ -124,24 +124,6 @@ app.innerHTML = `
         </article>
       </section>
 
-      <section id="links" class="section content-section">
-        <div class="section-heading">
-          <span class="section-number">04</span>
-          <h2>Links</h2>
-        </div>
-        <div class="link-grid">
-          ${links.map(link => `
-            <a class="link-card" href="${link.href}">
-              <span class="link-icon">${link.icon}</span>
-              <span>
-                <small>${link.label}</small>
-                <strong>${link.value}</strong>
-              </span>
-              <span class="card-arrow">↗</span>
-            </a>
-          `).join("")}
-        </div>
-      </section>
 
       <section id="contacts" class="section contact-section">
         <div class="contact-panel">
